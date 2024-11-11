@@ -58,7 +58,6 @@ finally:
 
 # Create a DataFrame and save to CSV or Excel
 data = pd.DataFrame({'Title': titles, 'DOI': dois})
-data.to_csv('publications.csv', index=False)   # Save to CSV
-data.to_excel('publications.xlsx', index=False)  # Save to Excel
+data.to_excel('Medrxiv_Data.xlsx', index=False)  # Save to Excel
 
-print("Data saved to publications.csv and publications.xlsx")
+print("Data saved to Medrxiv_Data.xlsx")
