@@ -1,0 +1,6 @@
+.venv/
+v1_dates_cache.json
+__pycache__/
+
+# data files - inputs and generated outputs stay out of the repo
+*.xlsx
